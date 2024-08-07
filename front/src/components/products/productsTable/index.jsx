@@ -41,8 +41,8 @@ const ProductsTable = () => {
     setFilteredProducts(filtered);
   };
 
-  const handleEdit = (id) => {};
-  const handleAdd = () => {};
+  //   const handleEdit = (id) => {};
+  //   const handleAdd = () => {};
   const handleDelete = (id) => {
     axiosWithHeader()
       .delete(`/products/${id}`)
